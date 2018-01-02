@@ -1,0 +1,30 @@
+{
+  "name": "googlehome-insultme",
+  "version": "1.0.0",
+  "description": "Funny Google Home action to insult you",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "mocha"
+  },
+  "keywords": [
+    "google home",
+    "google assistant",
+    "funny",
+    "insult"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wesleybliss/--TODO--.git"
+  },
+  "author": "Wesley Bliss <wesley.bliss@gmail.com> (https://wesleybliss.com)",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "dotenv": "^4.0.0",
+    "require-all": "^2.2.0",
+    "restify": "^6.3.4",
+    "restify-cors-middleware": "^1.1.0",
+    "winston": "^2.4.0"
+  }
+}
